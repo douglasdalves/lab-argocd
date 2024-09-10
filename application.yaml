@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/douglasdalves/lab-argocd.git
     targetRevision: main
-    path: hml
+    path: /
   destination: 
     server: https://kubernetes.default.svc
     namespace: lab-hml
