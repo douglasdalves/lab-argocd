@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: meu-repo-git
+  namespace: argocd
+stringData:
+  url: https://github.com/douglasdalves/lab-argocd.git
