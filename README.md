@@ -12,7 +12,9 @@ argocd app create nginx-app --repo https://github.com/douglasdalves/lab-argocd.g
 kubectl port-forward svc/argocd-server -n argocd 8080:443
 
 
+https://docs.opsmx.com/opsmx-intelligent-software-delivery-isd-platform-argo/additional-resources/create-new-account-for-argo-cd-with-api-key-and-rbac-permissions
 
+argocd account generate-token --account argo-account
 
 Commands
 
